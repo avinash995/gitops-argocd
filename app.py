@@ -1,5 +1,4 @@
 import socket
-
 from uuid import getnode as get_mac
 from flask import Flask,jsonify
 
@@ -35,4 +34,3 @@ def home():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int("5000"), debug=True)
-	
